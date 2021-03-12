@@ -1,0 +1,30 @@
+nav {
+  border-top: 5px solid #000;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(184, 135, 11, 0.945);
+}
+
+#header {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../Images/home.jpg') center/cover no-repeat;
+  min-height: 100vh;
+}
+
+#header .color-red {
+  color: #ff000f;
+}
+
+.bg-purple {
+  background-color: #4900d5;
+}
+
+.checkbox-item {
+  padding: 2px;
+  border-radius: 2px;
+}
